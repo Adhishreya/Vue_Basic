@@ -16,18 +16,46 @@
       <img
         src="https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.webp?image_crop_resized=960x540"
       />
+      <h4>
+        <a
+          href="https://github.com/freeCodeCamp/how-to-contribute-to-open-source"
+          >A beginners only for open source contribution</a
+        >
+      </h4>
+
+      <!-- <h3 id="end">{{ eve }}</h3> -->
       <img
         src="https://i.ytimg.com/vi/-bAlWBbRtEw/maxresdefault.jpg?v=5f9b128f"
       />
+
+      <h3 id="ossd">
+        {{ ossd }}
+      </h3>
+      <h5>
+        <a href="https://ossdays.konfhub.com/">Attend the online event</a>
+      </h5>
     </ul>
+    <!-- Diclarative Rendering: -->
+    <!-- <div> -->
+
+    <!-- </div> -->
   </div>
 </template>
 
-<script>
+ <script>
+// import Vue from "vue";
+
+// var prac = new Vue({
+//   el: "#end",
+//   data: {
+//     eve: "Hurry Event ends tomorrow!!!",
+//   },
+// });
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
+    ossd: String,
   },
 };
 </script>
