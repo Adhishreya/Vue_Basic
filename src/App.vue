@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <HelloWorld
+      msg="The pandemic has indeed brought the world to a standstill....... What are you doing to keep yourself on the run?........"
+    />
   </div>
 </template>
 
@@ -11,8 +12,8 @@ import HelloWorld from "./components/HelloWorld";
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
 
@@ -22,7 +23,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #c6d4e2;
+
   margin-top: 60px;
+}
+body {
+  background-color: rgb(64, 64, 64);
 }
 </style>

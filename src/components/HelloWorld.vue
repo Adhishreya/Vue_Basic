@@ -1,62 +1,24 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h3>Installed CLI Plugins</h3>
+    <h4>{{ msg }}</h4>
+
     <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-        >babel</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-        >eslint</a>
-      </li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a>
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a>
-      </li>
-      <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-      </li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a>
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-        >vue-devtools</a>
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a>
-      </li>
-      <li>
-        <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a>
-      </li>
+      <img
+        src="https://images.unsplash.com/photo-1601416137737-1806bc02d7f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1581560550192-5635c4e033c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1586991359975-54500b7d8a86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+      />
+      <img
+        src="https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.webp?image_crop_resized=960x540"
+      />
+      <img
+        src="https://i.ytimg.com/vi/-bAlWBbRtEw/maxresdefault.jpg?v=5f9b128f"
+      />
     </ul>
   </div>
 </template>
@@ -65,8 +27,8 @@
 export default {
   name: "HelloWorld",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>
 
@@ -75,10 +37,7 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+
 li {
   display: inline-block;
   margin: 0 10px;
