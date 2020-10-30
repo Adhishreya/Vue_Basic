@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Check out some Popular open source repositories</h1>
+    <h1>So why is Opensource contribution glorified so much?</h1>
     <h3>
       Let's hear it from <a href="https://octoverse.github.com/">OCTOVERSE</a>
     </h3>
