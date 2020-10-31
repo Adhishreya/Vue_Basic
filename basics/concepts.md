@@ -7,3 +7,4 @@ Basically the application coprises of 3 components
 3. Style (styling)
 
 v-for is a directive to render the list elements
+v-on directive to attach event listeners /

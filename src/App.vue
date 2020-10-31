@@ -5,8 +5,12 @@
       ossd="OPEN SOURCE SOFTWARE DAYS"
     />
     <Popular />
-    <Goals />
-    <h2 id="caution">Warning: Site under construction!!</h2>
+
+    <button class="border-0" v-on:click="color">
+      <h2 v-bind:style="back" id="caution">
+        Warning: Site under construction!!
+      </h2>
+    </button>
   </div>
 </template>
 
@@ -19,7 +23,21 @@ export default {
   components: {
     HelloWorld,
     Popular,
-    Goals,
+  },
+  data() {
+    return {
+      back: {
+        backgroundColor: "",
+        color: "",
+      },
+    };
+  },
+  methods: {
+    color() {
+      alert("Work under progress!");
+
+      this.back.backgroundColor = "red";
+    },
   },
 };
 </script>
@@ -34,9 +52,9 @@ export default {
 
   margin-top: 60px;
 }
-#caution{
-  color:beige;
-  background:brown;
+#caution {
+  color: beige;
+  background: brown;
 }
 body {
   background-color: rgb(64, 64, 64);

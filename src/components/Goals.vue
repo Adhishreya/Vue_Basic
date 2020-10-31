@@ -10,6 +10,7 @@
               :data="i.goal"
               :complete="i.check"
               :key="index"
+              @on-delete="delete_goal(i)"
             />
           </ul>
         </div>
